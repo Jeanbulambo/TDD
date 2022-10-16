@@ -5,7 +5,7 @@ describe Solver do
 
   describe 'Factorial' do
     it 'returns the factorial of n' do
-      expect(solver.factorial(9)).to eql 362880
+      expect(solver.factorial(9)).to eql 362_880
     end
   end
 

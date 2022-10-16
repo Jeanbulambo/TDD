@@ -1,7 +1,8 @@
 class Solver
   def factorial(number)
     return number if number == 1
-    number * factorial(number -1)
+
+    number * factorial(number - 1)
   end
 
   def reverse(string)
@@ -9,11 +10,11 @@ class Solver
   end
 
   def fizzbuzz(number)
-    if(number % 5).zero? && (number % 3).zero?
+    if (number % 5).zero? && (number % 3).zero?
       'fizzbuzz'
-    elsif(number % 5).zero?
+    elsif (number % 5).zero?
       'buzz'
-    elsif(number % 3).zero?
+    elsif (number % 3).zero?
       'fizz'
     else
       number
